@@ -1,0 +1,45 @@
+.slider{
+	height: 550px;
+	background: #f1f1f1 url('../img/slider/slider-item.png') no-repeat center;
+	background-size: cover;
+	&-block{
+		margin-top: 80px;
+	}
+	&__heading{
+		text-align: left;
+		margin-bottom: 65px;
+	}
+	&__title{
+		font-size: 36px;
+		font-family: "GothamPro", sans-serif;
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 1.2;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 40px;
+	}
+	&__subtitle{
+		font-size: 14px;
+		font-family: "GothamPro", sans-serif;
+		color: rgb(255, 255, 255);
+		line-height: 1.571;
+		width: 210px;
+	}
+	&__link{
+		display: flex;
+		align-items: center;
+		&-button{
+			margin-right: 30px;
+		}
+		&-text{
+			font-size: 12px;
+			font-family: "GothamPro", sans-serif;
+			color: rgb(255, 255, 255);
+			line-height: 1.833;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}
